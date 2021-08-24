@@ -1,0 +1,60 @@
+/* Limpa formatações padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* 
+***** Layout *****
+*/
+
+#area-cabecalho {
+    /* border: 2px solid red; */
+    background-color: #f7b600;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+}
+
+#area-logo {
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+#area-menu {
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+/*
+***** Formatações em geral *****
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px;
+}
+a:hover, a:active {
+    color: #f7b600;
+    background: #ffffff;
+}
+
+.branco {
+    color: #ffffff;
+}
