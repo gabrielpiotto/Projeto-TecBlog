@@ -18,10 +18,10 @@ body {
 #area-cabecalho {
     /* border: 2px solid red; */
     background-color: #f7b600;
-    width: 100%;
+    width: auto;
     padding: 15px;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
 }
 
 #area-logo {
@@ -34,6 +34,32 @@ body {
     padding: 10px;
 }
 
+#area-principal {
+    border: 1px solid red;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    border: 1px solid red;
+    background-color: #ffffff;
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    border: 1px solid blue;
+    background-color: #ffffff;
+    width: 240px;
+    float: right;
+}
+
+#area-rodape {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
 /*
 ***** Formatações em geral *****
 */
@@ -57,4 +83,14 @@ a:hover, a:active {
 
 .branco {
     color: #ffffff;
+}
+
+.css-titulo-postagem {
+    color:#f7b600
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
 }
