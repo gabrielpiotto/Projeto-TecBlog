@@ -21,7 +21,6 @@ body {
     width: auto;
     padding: 15px;
     text-align: center;
-    /* position: fixed; */
 }
 
 #area-logo {
@@ -35,20 +34,20 @@ body {
 }
 
 #area-principal {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 #area-postagens {
-    border: 1px solid red;
-    background-color: #ffffff;
+    /* border: 1px solid red; */
     width: 660px;
     float: left;
 }
 
 #area-lateral {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: #ffffff;
     width: 240px;
     float: right;
@@ -60,6 +59,14 @@ body {
     text-align: center;
     padding: 15px;
 }
+
+.postagem-lateral {
+    /* border: 1px solid red; */
+    padding: 5px;
+    font-size: 0.8em;
+    border-bottom: 2px solid #ccc;
+}
+
 /*
 ***** Formatações em geral *****
 */
@@ -70,15 +77,28 @@ h1 {
 }
 
 a {
-    /* border: 1px solid red; */
     text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    /* border: 1px solid red; */
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px;
 }
-a:hover, a:active {
+
+#area-cabecalho a:hover, #area-cabecalho a:active {
     color: #f7b600;
     background: #ffffff;
+    text-decoration: none;
 }
 
 .branco {
@@ -86,11 +106,24 @@ a:hover, a:active {
 }
 
 .css-titulo-postagem {
-    color:#f7b600
+    color: #f7b600
 }
 
 .postagem {
     padding: 20px;
     margin-bottom: 20px;
     background: #ffffff;
+}
+
+.conteudo-lateral {
+    background: #ccc;
+    padding: 10px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
